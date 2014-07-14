@@ -1,8 +1,14 @@
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
 
   html {
     color: #1b1f3d;
     background: #fff;
     font: medium/1.4 Helvetica, Arial, sans-serif;
+    font-size: 1em;
   }
       
   body {
@@ -14,18 +20,38 @@
   h1 {
     font-weight: normal;
     font-size: 3em;
-    margin: 0 0 20px;
+    margin: 0;
     background: url(../images/logo.png) no-repeat;
     height: 80px;
     text-indent: -99999px;
-    padding-bottom: 15px;
     border-bottom: 5px solid #1e3c7a;
+    overflow: auto;
+    padding-bottom: 15px;
   }
       
   h1 strong {
     color: #325750;
   }
       
+  nav ul {
+    margin: 0;
+    padding: 0;
+    background-color: #125670;
+    overflow: auto;
+  }
+
+  nav li {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 15px;
+    background-color: #1c7191;
+    color: #fff;
+    float: left;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    border-right: 1px solid #fff;
+  }
+
   address {
     font-style: normal;
   }
