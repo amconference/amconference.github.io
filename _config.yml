@@ -3,7 +3,7 @@
 # ----------------------- #
 auto: true
 layouts:     ./_layouts
-
+baseurl: http://0.0.0.0:4000/
 
 # ----------------------- #
 #      layout             #
