@@ -1,10 +1,295 @@
-
-    {% include header.html %}
+{% include header.html %}
     {% include nav.html %}
-
-
 <h2>Schedule</h2>
 
+<div id="schedule-tabs">
+	<div id="schedule-tab01" class="checked">
+		<label for="schedule-day1">Day 1 </label>
+	</div>
 
-    {% include footer.html %}
 
+	<div id="schedule-tab02" class="not-checked">
+		<label for="schedule-day2">Day 2 </label>
+	</div>
+</div>
+
+<div id="schedule-days">
+	<div id="schedule-day1" class="show">
+		<table>
+			<tbody>
+				<tr>
+					<td class="schedule-times"></td>
+					<td class="schedule-events">Thursday 25<sup>th</sup> 2014</td>
+				</tr>
+				<tr>
+					<td class="schedule-times">9:00 - 9:30:</td>
+					<td class="schedule-events">Registration</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">9:30 - 9:45:</td>
+					<td class="schedule-events"> <strong>Conference opening Jeremy Farrar</strong>,
+						<br/>
+						Director of the Wellcome Trust
+					</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">9:45 - 11:00:</td>
+					<td class="schedule-events"> <strong>Altmetrics in the last year and what’s on the roadmap</strong>
+						<br/>
+						Chair: Martin Fenner, Technical Lead Article Level Metrics, PLOS
+						<ul>
+							<li>Euan Adie, Founder, Altmetric</li>
+							<li>Andrea Michalek, Co-founder and President, Plum Analytics</li>
+							<li>
+								Stacey Konkiel, Director of Marketing & Research, Impactstory
+							</li>
+							<li>PLOS</li>
+							<li>David Sommer, Co-founder & Director, Kudos</li>
+							<li>William Gunn, Head of Academic Outreach, Mendeley</li>
+							<li>OASPA</li>
+						</ul>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">11:00 - 11:15:</td>
+					<td class="schedule-events">Coffee break</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">11:15 - 12:30:</td>
+					<td class="schedule-events">
+						<strong>How are people using altmetrics now?</strong>
+						<br/>
+						Chair: Ian Mulvaney, Head of Technology, eLife
+						<ul>
+							<li>Paul Needham, PIRUS</li>
+							<li>Lisa Colledge, Senior Manager, Global Strategic Alliances</li>
+							<li>
+								Mike Thelwall, Professor of Information Science, University of Wolverhampton
+							</li>
+							<li>Singapore librarian</li>
+						</ul>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">12:30 - 13:15:</td>
+					<td class="schedule-events">
+						Lunch
+						<br/>
+						Kindly provided by the Wellcome Trust
+					</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">13:15 - 14:30:</td>
+					<td class="schedule-events">
+						<strong>What’s going on in the communication of research?</strong>
+						<br/>
+						Chair: Martijn Roelandse, Senior Editor at Springer Science+Business Media
+						<ul>
+							<li>
+								Bjoern Brembs, Professor of Neurogenetics, Universität Regensburg
+							</li>
+							<li>Brian Wecht, Co-Founder of The Story Collider</li>
+							<li>
+								Renée Hlozek, Postdoctoral Research Fellow, Department of Astrophysics, Princeton University
+							</li>
+							<li>AJ Cann, University of Leicester</li>
+						</ul>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">14:30 - 15:00:</td>
+					<td class="schedule-events">Presentation</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">15:00 - 15:15:</td>
+					<td class="schedule-events">Coffee break</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">15:15 - 16:30:</td>
+					<td class="schedule-events">
+						<strong>Impact assessment in the funding sector: the role of altmetrics</strong> 
+						<br/>
+						Chair: Jennifer Lin, Senior Product Manager, PLOS
+						<ul>
+							<li>James Wilsdon, Chair of the HEFCE Steering Group on Metrics</li>
+							<li>Adam Dinsmore, Evaluation Officer, Wellcome Trust</li>
+							<li>
+								Ruth Freeman, Director of Strategy & Communications, Science Foundation Ireland
+							</li>
+							<li>
+								Liz Philpots, Head of Research, Association of Medical Research Charities
+							</li>
+						</ul>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">16:30 - 17:30:</td>
+					<td class="schedule-events">
+						<strong>Uses of metrics within institutions</strong>
+						<br/>
+						A group workshop session to facilitate discussion and consideration of how altmetrics are or perhaps should be used within institutions.
+					</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">17:30 - 19:00:</td>
+					<td class="schedule-events">
+						<strong>Drinks reception and Wellcome Collection Gallery tours:</strong>
+						<ul>
+							<li>
+								<a href="http://www.wellcomecollection.org/whats-on/exhibitions/medicine-now.aspx" target="_blank">Medicine Now</a>
+							</li>
+							<li>
+								<a href="www.wellcomecollection.org/whats-on/exhibitions/human-condition.aspx" target="_blank">An Idiosyncratic A to Z of the Human Condition</a>
+							</li>
+						</ul>
+					</td>
+				</tr>
+
+			</tbody>
+		</table>
+
+	</div>
+
+	<div id="schedule-day2"  class="hide">
+		<table>
+			<tbody>
+				<tr>
+					<td class="schedule-times"></td>
+					<td class="schedule-events">Friday 26<sup>th</sup> 2014</td></td>
+				</tr>
+				<tr>
+					<td class="schedule-times">9:00 - 9:30:</td>
+					<td class="schedule-events">Registration</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">9:30 - 9:40:</td>
+					<td class="schedule-events">
+						<strong>Introduction</strong>
+						<br/>
+						Timo Hannay, Managing Director, Digital Science
+					</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">9:40 - 10:40:</td>
+					<td class="schedule-events">
+						<strong>Altmetrics and publishers</strong>
+						<br/>
+						Chair: Kevin Dolby, Evaluation Advisor, Wellcome Trust
+						<ul>
+							<li>Hans Zijlstra, Senior Marketing Manager, Elsevier</li>
+							<li>????, ???, Springer</li>
+							<li>Jennifer Lin, Senior Product Manager, PLOS</li>
+							<li>Ruth Ivimey-Cook, Web Application Developer, eLife</li>
+
+						</ul>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">10:40 - 11:30:</td>
+					<td class="schedule-events">
+						<strong>Lessons learnt</strong>
+						<br/>
+						Chair: Euan Adie, Founder, Altmetric
+						<ul>
+							<li>Geoff Bilder, Director of Strategic Initiatives, CrossRef</li>
+							<li>Cameron Neylon, Director of Advocacy, PLOS</li>
+						</ul>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">11:30 - 11:45:</td>
+					<td class="schedule-events">Coffee break</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">11:45 - 12.45:</td>
+					<td class="schedule-events">
+						<strong>Outside the article: tracking other research outputs</strong>
+						<br/>
+						Chair: Mike Taylor, Research Specialist, Elsevier Labs
+						<ul>
+							<li>Arfon Smith - github</li>
+							<li>Sarah Callaghan, Chair, RDA Metrics working group</li>
+						</ul>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">12:45 - 13:30:</td>
+					<td class="schedule-events">
+						Lunch
+						<br/> <em>Kindly provided by the Wellcome Trust</em>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">13:30 - 14:00:</td>
+					<td class="schedule-events">
+						<strong>NISO - update on standards</strong>
+						<br/>
+						Todd Carpenter, Executive Director, NISO
+					</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">14:00 - 15:00:</td>
+					<td class="schedule-events">
+						<strong>Have we made progress? Where are we going?</strong>
+						<br/>
+						A group workshop session to review activity around altmetrics to date, and to propose ideas for future development.
+					</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">15:00 - 15:30:</td>
+					<td class="schedule-events">
+						<strong>Feedback presentations and discussion</strong>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">15:30 - 15:45:</td>
+					<td class="schedule-events">Coffee break</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">15:45 - 16:45:</td>
+					<td class="schedule-events">
+						<strong>Beyond academia: other groups</strong>
+						<br/>
+						Chair: Todd Carpenter??
+						<ul>
+							<li>
+								Bobby Duffy, Managing Director, Ipsos Mori Social Research Institute
+							</li>
+							<li>James Baker, Social Media Manager, Food Standards Agency</li>
+						</ul>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="schedule-times">16:45 - 17:00:</td>
+					<td class="schedule-events">Conference close</td>
+				</tr>
+
+			</tbody>
+		</table>
+	</div>
+
+</div>
+{% include footer.html %}
