@@ -3,7 +3,8 @@
 # ----------------------- #
 auto: true
 layouts:     ./_layouts
-baseurl: http://0.0.0.0:4000/
+baseurl: /
+# baseurl: http://www.designtoday.info/altmetric/conf/
 
 # ----------------------- #
 #      layout             #
