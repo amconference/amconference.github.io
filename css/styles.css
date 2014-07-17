@@ -266,4 +266,17 @@
       margin-bottom: 5px;
     }
 
+    h1 {
+       width: 100%;
+       background-position: center;
+    }
+
+    @media all and (max-width: 420px) {
+        
+        h1 {
+          background-size: 100%;
+        }
+
+    }
+
   }
