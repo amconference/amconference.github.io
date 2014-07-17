@@ -152,6 +152,10 @@
     vertical-align: top;
   }
 
+  #accommodation-table td:nth-child(odd) {
+    padding-right: 25px;
+  }
+
   #schedule-days td  {
     vertical-align: top;
     padding: 10px;
