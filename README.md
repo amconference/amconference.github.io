@@ -3,8 +3,7 @@ amconference.github.io
 
 The AM Conference web site.
 
-To install Jekyll 
-https://help.github.com/articles/using-jekyll-with-pages
+To install Jekyll - https://help.github.com/articles/using-jekyll-with-pages
 
 Run locally with Jekyll use the command 
 '''bundle exec jekyll serve --watch'''
