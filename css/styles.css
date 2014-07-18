@@ -139,6 +139,11 @@
     clear: both;
     border-top: 3px solid #125670;
     margin-top: 15px;
+    text-align: center;
+  }
+
+  footer img {
+    padding-top: 10px;
   }
 
 
@@ -223,6 +228,10 @@
 
   #surveyMonkeyInfo iframe {
     min-height: 440px !important;
+  }
+
+  #twitter-widget-0 {
+    width: 40% !important;
   }
 
   @media all and (max-width: 550px) {
