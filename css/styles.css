@@ -217,6 +217,15 @@
     height: auto;
   }
 
+  #surveyMonkeyInfo {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  #surveyMonkeyInfo iframe {
+    min-height: 440px !important;
+  }
+
   @media all and (max-width: 550px) {
     #accommodation-table td {
       float: left;
