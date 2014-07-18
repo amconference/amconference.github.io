@@ -96,6 +96,11 @@
     font-size: 1.2em;
     text-align: right;
   }
+
+  #home-intro {
+    float:left; 
+    max-width: 55%;
+  }
   
   h2 {
     margin: 0;
@@ -145,7 +150,14 @@
   footer img {
     padding-top: 10px;
   }
-
+  
+  footer span {
+    display: block;
+    margin-bottom: -10px;
+    padding: 0 0 0 87px;
+    position: relative;
+    text-align: left;
+  }
 
 
   #schedule-days table,
@@ -211,6 +223,14 @@
     background: #8db8c8;
   }
 
+  #sessions-details {
+/*    8db8c8
+*/  }
+  #sessions-details hr {
+    border: 2px solid #8db8c8;
+    margin-bottom: 20px;
+  }
+
   #tube-map {
     width: 100%;
     margin: 0;
@@ -238,6 +258,7 @@
     #accommodation-table td {
       float: left;
     }
+    
   }
 
   @media all and (min-width: 63.25em) {
@@ -245,7 +266,11 @@
     nav li a:visited {
       padding: 0.5em 1.4em 0.25em;    
     }    
+    
+
+
   }
+
 
   @media all and (max-width: 57.25em) {
     nav li a:link,
@@ -256,6 +281,8 @@
      nav ul {
       background: none;
     }
+
+
   }
 
   @media all and (max-width: 53.25em) {
@@ -264,7 +291,11 @@
     }
     nav li {
       margin-bottom: 1px;
-    }    
+    }
+
+    #home-intro {
+      max-width: 100%;
+    }
   }
 
   @media all and (max-width: 820px) {
