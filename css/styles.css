@@ -234,7 +234,7 @@
   @media all and (min-width: 63.25em) {
     nav li a:link,
     nav li a:visited {
-      padding: 0.5em 1.6em 0.25em;    
+      padding: 0.5em 1.4em 0.25em;    
     }    
   }
 
@@ -243,7 +243,10 @@
     nav li a:visited {
       padding: 0.9em 1em 0.25em;    
       font-size: 0.9em;
-    }    
+    } 
+     nav ul {
+      background: none;
+    }
   }
 
   @media all and (max-width: 53.25em) {
@@ -273,7 +276,11 @@
       text-align: left;
       margin-bottom: 5px;
     }
-
+    
+    address {
+      text-align: center;
+    }
+  
     h1 {
        width: 100%;
        background-position: center;
