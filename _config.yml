@@ -4,7 +4,6 @@
 auto: true
 layouts:     ./_layouts
 baseurl: /
-# baseurl: http://www.designtoday.info/altmetric/conf/
 
 # ----------------------- #
 #      layout             #
