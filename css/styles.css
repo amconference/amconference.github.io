@@ -41,7 +41,6 @@
   nav ul {
     margin: 0;
     padding: 0;
-    background-color: #125670;
     text-align: center;
     overflow: hidden;
     width: 100%;
@@ -57,9 +56,8 @@
     font-size: 0.8em;
     border-right: 1px solid #fff;
     width: auto;
-    position: relative;
-    top: 1px  ;
     height: 32px;
+    line-height: 32px;
     -webkit-transition: height 0.5s, background-color 0.3s, font-size 0.3s, top 0.3s;
     transition: height 0.5s, background-color 0.3s, font-size 0.3s, top 0.3s;
   }
@@ -74,9 +72,9 @@
     text-decoration: none;
     display: block;
     width: 100%;
-    padding: 0.5em 0.7em 0.25em;    
     text-align: center;
     font-size: 1.1em;
+    padding: 0 1em;
   }
 
   nav li:hover {
@@ -269,41 +267,18 @@
     #accommodation-table td {
       float: left;
     }
-    
   }
-
-  @media all and (min-width: 63.25em) {
-    nav li a:link,
-    nav li a:visited {
-      padding: 0.5em 1.4em 0.25em;    
-    }    
-    
-
-
-  }
-
 
   @media all and (max-width: 57.25em) {
-    nav li a:link,
-    nav li a:visited {
-      padding: 0.9em 1em 0.25em;    
-      font-size: 0.9em;
-    } 
      nav ul {
       background: none;
     }
-
-
   }
 
   @media all and (max-width: 53.25em) {
     nav ul {
       background: none;
     }
-    nav li {
-      margin-bottom: 1px;
-    }
-
     #home-intro {
       max-width: 100%;
     }
