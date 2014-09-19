@@ -158,6 +158,18 @@
   }
 
 
+  .youtube {
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 4px;
+    margin-right: 0.5em;
+    float: left;
+    background: #fff;
+    text-decoration: none;
+    line-height: 1;
+  }
+
   #schedule-days table,
   #accommodation-table  {
     width: 100%;
