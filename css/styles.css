@@ -169,6 +169,14 @@
     line-height: 1;
   }
 
+  .slides {
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 0 5px;
+    background: #eee;
+    text-decoration: none;
+  }
+
   #schedule-days table,
   #accommodation-table  {
     width: 100%;
