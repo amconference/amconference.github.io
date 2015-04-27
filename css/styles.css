@@ -49,8 +49,8 @@
   nav li {
     display: inline-block;
     margin: 0 -2px;
-    padding: 0;
-    background-color: #125670;
+    padding: 0 8px;
+    background-color: #ff9900;
     color: #fff;
     text-transform: uppercase;
     font-size: 0.8em;
