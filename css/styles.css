@@ -4,6 +4,20 @@
     box-sizing: border-box;
   }
 
+  .pull-right {
+    float: right;
+    margin: 0 0 10px 10px;
+  }
+
+  .pull-right img {
+    margin-right: 0;
+  }
+
+  hr {
+    margin-top: 2em;
+    clear: both;
+  }
+
   html {
     color: #1b1f3d;
     background: #fff;
