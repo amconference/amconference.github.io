@@ -1,29 +1,24 @@
-jQuery(document).ready(function($) {
-	$("#schedule-day2").hide();
+$(function(){
+	var $wrapper = $('.schedule-tabs');
+	var $tabs = $('.schedule-tab');
 
-	$("#schedule-tabs div").click(function(event) {
-		/* Act on the event */
-		var currentlyCheckedTab = $("#schedule-tabs").find('.checked');
-		var daysDivs = $("#schedule-days div");
-		var currentlyCheckedDay = $("label", this).attr('for');
+	var $selector = $('<div class="schedule-tab-selector"/>');
 
+	$tabs.each(function(){
+		var $tab = $(this);
+		var title = $tab.find('h3').text();
+		$tab.find('h3').remove();
+		var $tabSelector = $('<div/>').text(title);
 
-		// selected.removeClass('checked');
-		// selected.addClass('not-checked');
-
-		// unselected.removeClass('not-checked');
-		// unselected.addClass('checked');
-
-		if($(this).hasClass('not-checked')) {
-
-			currentlyCheckedTab.removeClass('checked').addClass('not-checked');
-			$(this).addClass('checked').removeClass('not-checked');
-
-			daysDivs.hide();
-			$("#"+currentlyCheckedDay).show();
-
-		}
-
-	
+		$tabSelector.on('click', function(){
+			$tabs.hide();
+			$tab.show();
+			$selector.children().removeClass('clicked');
+			$tabSelector.addClass('clicked');
+		});
+		$selector.append($tabSelector);
 	});
+
+	$wrapper.prepend($selector);
+	$selector.find('div').first().trigger('click');
 });
